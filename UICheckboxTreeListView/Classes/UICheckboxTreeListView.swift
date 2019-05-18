@@ -32,15 +32,17 @@ public class UICheckboxTreeListView: UIView {
     }
     
     private var checkedNodes = [Node]()
-    private var nodes = [Node]()
+    private var nodes = [UICheckboxParent]()
     
     private var checkAll = false
     
     private func setupUI() {
-
-        let extraChild = Child(key: "Extra Child")
+         var c = [Child]()
         let childL3 = Child(key: "Level 3") { () -> [Child] in
-            return [extraChild,extraChild,extraChild]
+            for index in 0...3 {
+                c.append(Child(key: "Extra Child \(index)"))
+            }
+            return c
         }
         let childL2 = Child(key: "Level 2", expanded: true) { () -> [Child] in
             return [childL3]
@@ -51,8 +53,11 @@ public class UICheckboxTreeListView: UIView {
             return [childL2]
         }
         
-      
-        nodes = [parentL1, childL2, childL3]
+        let p = UICheckboxParent(isChecked: false, node: parentL1, children: [childL2])
+        let p2 = UICheckboxParent(isChecked: false, node: childL2, children: [childL3])
+        let p3 = UICheckboxParent(isChecked: false, node: childL2, children: c)
+        
+        nodes = [p,p2,p3]
         treeView = KJTree(Parents: [parentL1])
         
         treeView.isInitiallyExpanded = true
@@ -86,7 +91,7 @@ extension UICheckboxTreeListView: UITableViewDataSource {
         var cell: UITableViewCell?
 
         let indexTuples = node.index.components(separatedBy: ".")
-        if indexTuples.count == 1{
+        if indexTuples.count == 1{ //level 1
             let c = tableView.dequeueReusableCell(withIdentifier: "UICheckboxParentCell") as! UICheckboxParentCell
             c.lblTitle.text = node.key
             setButtonState(c.btnAction, forNode: node)
@@ -96,6 +101,7 @@ extension UICheckboxTreeListView: UITableViewDataSource {
             }) {
                 c.viewCheckBox.status = .active
             }
+            
             c.viewCheckBox.valueChanged = { [weak self](value) in
                 guard let `self` = self else {
                     return
@@ -115,14 +121,18 @@ extension UICheckboxTreeListView: UITableViewDataSource {
             
             
             cell = c
-        } else if indexTuples.count == 2 {
+        } else if indexTuples.count == 2 { //level 2
             let c = tableView.dequeueReusableCell(withIdentifier: "UICheckboxChildCell") as! UICheckboxChildCell
             c.lblTitle.text = node.key
             c.contraintRightMargin.constant = 25
             c.updateConstraints()
             setButtonState(c.btnAction, forNode: node)
             c.viewCheckbox.status = self.checkAll ? .active : .inactive
-            
+            if checkedNodes.contains(where: { (n) -> Bool in
+                return n.index == node.index || n.index.components(separatedBy: ".").count < 2
+            }) {
+                c.viewCheckbox.status = .active
+            }
             c.viewCheckbox.valueChanged = { [weak self](value) in
                 guard let `self` = self else {
                     return
@@ -133,20 +143,28 @@ extension UICheckboxTreeListView: UITableViewDataSource {
                     self.checkedNodes.removeAll(where: { (n) -> Bool in
                         return n.index == node.index
                     })
+                }
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
                 }
             }
             if checkAll {
                 c.viewCheckbox.status = .active
             }
             cell = c
-        } else if indexTuples.count == 3 {
+        } else if indexTuples.count == 3 { //level 3
             let c = tableView.dequeueReusableCell(withIdentifier: "UICheckboxChildCell") as! UICheckboxChildCell
-            
             c.lblTitle.text = node.key
             c.contraintRightMargin.constant = 40
             c.updateConstraints()
             setButtonState(c.btnAction, forNode: node)
             c.viewCheckbox.status = self.checkAll ? .active : .inactive
+            if checkedNodes.contains(where: { (n) -> Bool in
+                return n.index == node.index || n.index.components(separatedBy: ".").count < 3
+            }) {
+                c.viewCheckbox.status = .active
+            }
             c.viewCheckbox.valueChanged = { [weak self](value) in
                 guard let `self` = self else {
                     return
@@ -157,6 +175,10 @@ extension UICheckboxTreeListView: UITableViewDataSource {
                     self.checkedNodes.removeAll(where: { (n) -> Bool in
                         return n.index == node.index
                     })
+                }
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
                 }
             }
             if checkAll {
@@ -172,6 +194,12 @@ extension UICheckboxTreeListView: UITableViewDataSource {
             setButtonState(c.btnAction, forNode: node)
             c.btnAction.isHidden = true
             c.viewCheckbox.status = self.checkAll ? .active : .inactive
+            if checkedNodes.contains(where: { (n) -> Bool in
+                return n.index == node.index || n.index.components(separatedBy: ".").count < 4
+            }) {
+                c.viewCheckbox.status = .active
+            }
+
             c.viewCheckbox.valueChanged = { [weak self](value) in
                 guard let `self` = self else {
                     return
@@ -182,6 +210,10 @@ extension UICheckboxTreeListView: UITableViewDataSource {
                     self.checkedNodes.removeAll(where: { (n) -> Bool in
                         return n.index == node.index
                     })
+                }
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
                 }
             }
             if checkAll {
@@ -253,13 +285,13 @@ extension Bundle {
     }
 }
 
-class UICheckboxParent {
+struct UICheckboxParent {
     var isChecked = false
-    var node: Parent?
-    var children: [UICheckboxListChild]?
+    var node: Node?
+    var children: [Child]?
 }
 
-class UICheckboxListChild: UICheckboxParent {
+struct UICheckboxListChild {
     var parentNode: UICheckboxParent?
     var siblings: [UICheckboxListChild]?
 }
