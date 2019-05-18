@@ -1,0 +1,6 @@
+framework module UICheckboxTreeListView {
+  umbrella header "UICheckboxTreeListView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168C2EFAC0C30BD3744B994130BE5E73 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F64404ADE15EC7F507B1BDD8F7500BD /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBE74FBA5ABE1D88A507381271E01B8 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D14303FE292156E3F7ED0CF62BCD9 /* ConstraintLayoutGuide.swift */; };
+		1C9DDF7AC89329F11309BFC8AAB77432 /* UICheckboxTreeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC6DB409ACA5FFAD8009F3A5316533 /* UICheckboxTreeListView.swift */; };
+		29862F4A50222961B156A47C6FA3A992 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0309CB4B66A39DD0AF785E41B86601 /* ConstraintRelation.swift */; };
+		2AC6E617EE4A3AA5218FD1DCA17A32F5 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884F3645FBBB56D821954612C947972 /* ConstraintView.swift */; };
+		2C1F7DF55044B2B374A952D8CE3A59EA /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA878DF38508DB44B4A6B992F6167A /* UICheckBox.swift */; };
+		2DC751F8A77B7936589B80D34AA08AF4 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239A2F10B93AF63EE42C924C6C3392C /* ConstraintView+Extensions.swift */; };
+		2E1D3BC88AE27EFB5A06BA71D6A12200 /* Pods-UICheckboxTreeListView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97297CEB6581F43806A6E02F120CE707 /* Pods-UICheckboxTreeListView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321B2CA1577F06BC52F12554EA972274 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636C18B9F01CD2D62D4D1D43AF9EF70 /* ConstraintMakerFinalizable.swift */; };
+		3427757BC4841264023927CC6872CA5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */; };
+		34B1CB3986A67AEE14056987B09851E4 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB70ECA4DE620C4634294A14B79E006 /* ConstraintOffsetTarget.swift */; };
+		3A6219477B3A24FCBD7F0AF20B800EEA /* UICheckboxParentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E96778849612BCD01BB3EF5AFCBE896 /* UICheckboxParentCell.xib */; };
+		3D290A0657436DEB1D4E9E6006E33127 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04819DCE5883FF5EF190DB5B2A8A7B19 /* Constraint.swift */; };
+		4721B4D7EA183B8B688407715DD377AB /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B9153DB9B8CEC860CC67706CEF292 /* ConstraintLayoutGuide+Extensions.swift */; };
+		484F9E2F0705A1D2CBAB13CED5F4327B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E267C4B0A7FA1C0A35E2C013D848B /* ConstraintMultiplierTarget.swift */; };
+		4D97A75C123787F085AAF59391BB351C /* UICheckboxTreeListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 520A26D8D67A493B48D68644C544BD3D /* UICheckboxTreeListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FDCF97B7FC89C164C853184519B9944 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B57360BCEB09F7C16FD04450A7F9A7 /* ConstraintPriority.swift */; };
+		503D7DE43F852A0C4FA8B5E8FB092A15 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7B57F00A85FBD99E7F3A76F1D1228 /* ConstraintConstantTarget.swift */; };
+		50AD0E884A3C574F8E458CCCD6B8AE59 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BA48007555B823F217E9B367AB46A /* ConstraintLayoutSupport.swift */; };
+		5574BA7C0FE32A3CEAAFCF9D6477E2DF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084EC82E5E7DE4270C3C88941FA7A9B2 /* ConstraintViewDSL.swift */; };
+		7523A6E8666E20E4B5E13E50970E8B9B /* KJExpandableTableTree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBB88BA992C40AB6AE7747097CF4DCD /* KJExpandableTableTree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781E99BF646202874CC5327D1F3FBD1B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2173364B89024B056FA46918F31D7EB /* ConstraintAttributes.swift */; };
+		86F749784D89E08706737CD2AE343EA6 /* Pods-UICheckboxTreeListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DE13C8928EC40C599081C28053CC8 /* Pods-UICheckboxTreeListView_Tests-dummy.m */; };
+		8855815469BE0E98EC0E47D23185F8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */; };
+		8F457305AF1A54C48F6B51D654651269 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE271DBD9C405A8FD3293F82F73638 /* ConstraintMaker.swift */; };
+		900B053A24CD3EAF6C89B819ED76198E /* UICheckboxTreeListView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED5F988BD855B27C26243613C126DE46 /* UICheckboxTreeListView.bundle */; };
+		959764C51DC56A918351F707B47D495F /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4318A06A66FAE784BA2E8FE3B20A21 /* LayoutConstraint.swift */; };
+		9D52835672D0E7A48C4B6EBAD13E40A0 /* KJExpandableTableTree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A9AEB07C71C54C884F916A435D39AB /* KJExpandableTableTree-dummy.m */; };
+		A07250C217DF31ACB6583453F4D55480 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6E5EAE9337272E9151FF208FC3038 /* ConstraintInsets.swift */; };
+		A08E0210F973FB192F2046BF1F4A02A8 /* UICheckboxNibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5E2E078C8906D92F10C145C13C8BF /* UICheckboxNibLoadingView.swift */; };
+		A572845B2D062661D7F65C598D7C86DB /* UICheckboxChildCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B64CFCC1C90DAB9BD8D1E5CBC197AB /* UICheckboxChildCell.xib */; };
+		A6806DBA51B3E62B1BA26DD8D5225B26 /* UICheckboxChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE956DE037C1736FC1782E7E03134213 /* UICheckboxChildCell.swift */; };
+		A84C3DD44ED7D0D888386FE3569F9644 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11A283A449D3687584E1876E90B8A1 /* ConstraintDescription.swift */; };
+		AA25129B923D76C3EA71EF89AFFEE810 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD321DE17663A19F9A18695DDF2DE9 /* Debugging.swift */; };
+		ACD23A9EA166CB0C0974D786B17F3247 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154697FBBD7F91D81793FB0C6E900495 /* ConstraintLayoutGuideDSL.swift */; };
+		B00AC30CCBC31D93AC991DF9383837A9 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA121C8F1A7B0C25DE40557D0B8493DD /* ConstraintMakerExtendable.swift */; };
+		B09B7FB6512593F59C6176D274A4A865 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40FC72F7B9EBC6D91BEC67DF131F96 /* ConstraintPriorityTarget.swift */; };
+		B0FCB33B239CB74376AE60E95EE3745C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */; };
+		B91D00C0576D0F444B7D042C53A64C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD1B8AF5D18E87D99C45A421C989A5A /* Assets.xcassets */; };
+		C258DA340519F1149568E2ACE6FACBEF /* UICheckboxTreeListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B8E7320600B040F0C4D362B1EF840 /* UICheckboxTreeListView-dummy.m */; };
+		C28233F04C036E057DE3D8A62141C200 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFC7C2A6A879ED373FC1F98C54F165 /* UILayoutSupport+Extensions.swift */; };
+		C63D93C00DE3EAB1265337C1BEBA8A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */; };
+		C84CD8CFFA849E92B725B5E0C2E981B0 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A3B7AC9BD1BE0ED9592328002D9E4 /* Typealiases.swift */; };
+		CAB4B930ECE4FEF0A98554D6600EBEBB /* KJExpandableTableTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7E29A25BB8EFD2CC448CD77952B5B9 /* KJExpandableTableTree.framework */; };
+		CB5EEA9AA616BF870DAC5E30E7848125 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FE733C504A2D5D794003107344988 /* SnapKit-dummy.m */; };
+		CB9EC4AAF3E1D565C9C495F1E8E49A84 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822A98C271342CF5D5B57DAAB88D064 /* ConstraintRelatableTarget.swift */; };
+		CCFD994B4B3E68B1DC805E1A33F69834 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A29E4F73DEADBE01BC6928E6F47ED2 /* ConstraintLayoutSupportDSL.swift */; };
+		CE4F71C2B80E15273DF21961712C5321 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987CBE501DDF6FB1E3F8A1B9278A986D /* ConstraintMakerPriortizable.swift */; };
+		D02205AE9CD4BCFB740118272A851996 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB785E6504B5676574A460D821CDC22C /* ConstraintItem.swift */; };
+		D41D7529DA1AE2FEBD71773883339E7F /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B1F2AE5EC61F56C53B12D4A69E39AC /* ConstraintConfig.swift */; };
+		D59EEC9677826A2BD2633F8FB54D70E3 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC104CBCE8CAD2D7101DCFEC35F0F656 /* ConstraintMakerRelatable.swift */; };
+		D8425DCCDBF4A7217EA467AEBB24E79D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904583732B1C47C53E96923B4F6F0FE /* SnapKit.framework */; };
+		E02084E9D651B7401693A5FF50320F98 /* UICheckboxParentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CF90C6AE70FAC3EFDB5D8A07156D5E /* UICheckboxParentCell.swift */; };
+		E7AE1B05A48173C0A6C80F5841A7CC8F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F000BC8A79063A5575F093C11DF2AB /* ConstraintInsetTarget.swift */; };
+		F02596FBC42F7E74A5612916D3B981D8 /* KJTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DCCA196A4F4563E9DEF4C3213066B /* KJTree.swift */; };
+		F25904A4F0D40ECAE214C84102AD75EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */; };
+		F704B0019A485C09443B63CAA4FA70C8 /* Pods-UICheckboxTreeListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B65B9611E1850ECF30C973C7AE4737 /* Pods-UICheckboxTreeListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7CC5FABACBED588C9F9098E4E1BB408 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857AE4BB31798D28677F935DCB10AACF /* ConstraintMakerEditable.swift */; };
+		F8E238F24510D669E0AFABF209C4B3CF /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD10B9E5F681C9B00EA89CFEF6552BD4 /* ConstraintDSL.swift */; };
+		F9EB9BBC12D67E60C362A92A0B4B0ABB /* Pods-UICheckboxTreeListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A0155E2EBB86DD4E15053E9DF079C7 /* Pods-UICheckboxTreeListView_Example-dummy.m */; };
+		FEE1FC8C983F55AC3EEE878A6CE1F595 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5EB93E8C6BE53494FB66B7C38080 /* LayoutConstraintItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19ADBE47E1FD08126E93305F73E3219F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED816979901DD45B07AF24AF34AD0294;
+			remoteInfo = KJExpandableTableTree;
+		};
+		507D08E81A3151DEC657B9CCD85581DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3114C0D9EE5A56D6F087C01701087664;
+			remoteInfo = "UICheckboxTreeListView-UICheckboxTreeListView";
+		};
+		8606A81CD81FF16C2A3715484BEEA20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7216794B6AAFEB15B2A58223794E5B;
+			remoteInfo = "Pods-UICheckboxTreeListView_Example";
+		};
+		9A1291557D9037A6F5831AB57B1A1948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1D032FA5413D2BDA2A9BDFA79C1518;
+			remoteInfo = SnapKit;
+		};
+		BCF9BAE00E4A097F8FCB13CC816A8964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED816979901DD45B07AF24AF34AD0294;
+			remoteInfo = KJExpandableTableTree;
+		};
+		C7F3DFC9802367C12C4982BF0A693FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1D032FA5413D2BDA2A9BDFA79C1518;
+			remoteInfo = SnapKit;
+		};
+		FFD25DBA2161B174F88C35BEA500FBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BB0325DBB0D91B9F4160E2A1C2DB9E;
+			remoteInfo = UICheckboxTreeListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B1F2AE5EC61F56C53B12D4A69E39AC /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		04819DCE5883FF5EF190DB5B2A8A7B19 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		084EC82E5E7DE4270C3C88941FA7A9B2 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		154697FBBD7F91D81793FB0C6E900495 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICheckboxTreeListView.xcconfig; sourceTree = "<group>"; };
+		18495B12893AECBACE6AE7F029ABEEE6 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		1B03068A73E26EEEFF3DD72764884853 /* Pods-UICheckboxTreeListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICheckboxTreeListView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B11A283A449D3687584E1876E90B8A1 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		1FD7B57F00A85FBD99E7F3A76F1D1228 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		28A72029D051FFFF01FF6BEA41DBD139 /* Pods-UICheckboxTreeListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICheckboxTreeListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0309CB4B66A39DD0AF785E41B86601 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		2FB70ECA4DE620C4634294A14B79E006 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3822A98C271342CF5D5B57DAAB88D064 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		3B1B8E7320600B040F0C4D362B1EF840 /* UICheckboxTreeListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICheckboxTreeListView-dummy.m"; sourceTree = "<group>"; };
+		3D759AC28BE1020D29160FC9A93A9CC8 /* Pods-UICheckboxTreeListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICheckboxTreeListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D8A3B7AC9BD1BE0ED9592328002D9E4 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		3F64404ADE15EC7F507B1BDD8F7500BD /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		46B57360BCEB09F7C16FD04450A7F9A7 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		4D2537BDC57FEFC6FF13F75C9E3724A9 /* Pods-UICheckboxTreeListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICheckboxTreeListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50701E1C7E0669DD794B674217C74226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51DCE6799FB848E8AB263F884FA4B17B /* KJExpandableTableTree.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJExpandableTableTree.xcconfig; sourceTree = "<group>"; };
+		520A26D8D67A493B48D68644C544BD3D /* UICheckboxTreeListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICheckboxTreeListView-umbrella.h"; sourceTree = "<group>"; };
+		52B64CFCC1C90DAB9BD8D1E5CBC197AB /* UICheckboxChildCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UICheckboxChildCell.xib; path = UICheckboxTreeListView/Assets/UICheckboxChildCell.xib; sourceTree = "<group>"; };
+		557B1DB123954364BD43DE57CF99860A /* KJExpandableTableTree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KJExpandableTableTree.modulemap; sourceTree = "<group>"; };
+		55FFBAA646FFA13873FDA777CCB248C7 /* UICheckboxTreeListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICheckboxTreeListView.framework; path = UICheckboxTreeListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A73EDD3D0F7F3C104C84A990C0D6D2 /* Pods-UICheckboxTreeListView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UICheckboxTreeListView_Tests.modulemap"; sourceTree = "<group>"; };
+		5754911F2D6B518A354CFCEC1A763442 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5884F3645FBBB56D821954612C947972 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		58A01B980A514ABA13B2790975761D9B /* KJExpandableTableTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KJExpandableTableTree.framework; path = KJExpandableTableTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0F9E04E099379F38E4501D8BB30843 /* Pods-UICheckboxTreeListView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICheckboxTreeListView_Example-resources.sh"; sourceTree = "<group>"; };
+		5B7BA48007555B823F217E9B367AB46A /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		5E96778849612BCD01BB3EF5AFCBE896 /* UICheckboxParentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UICheckboxParentCell.xib; path = UICheckboxTreeListView/Assets/UICheckboxParentCell.xib; sourceTree = "<group>"; };
+		5F7E29A25BB8EFD2CC448CD77952B5B9 /* KJExpandableTableTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KJExpandableTableTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6290B96EF2B0E740488EF7987DE50163 /* Pods-UICheckboxTreeListView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UICheckboxTreeListView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		633CA3F08473638B6BFDCD698C0C0C7D /* Pods-UICheckboxTreeListView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICheckboxTreeListView_Tests-resources.sh"; sourceTree = "<group>"; };
+		64FD321DE17663A19F9A18695DDF2DE9 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		667DE13C8928EC40C599081C28053CC8 /* Pods-UICheckboxTreeListView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UICheckboxTreeListView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6904583732B1C47C53E96923B4F6F0FE /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911D2CCF62E803B24E7A54A4BD21A7C /* KJExpandableTableTree-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJExpandableTableTree-prefix.pch"; sourceTree = "<group>"; };
+		69A0D92733AA47123814CC71F79CD7C8 /* Pods_UICheckboxTreeListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UICheckboxTreeListView_Example.framework; path = "Pods-UICheckboxTreeListView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD1B8AF5D18E87D99C45A421C989A5A /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = UICheckboxTreeListView/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		6BA9AEB548D3B5924F06EC1555DDA3FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2AFCFD9A13E3554B19058A364B1984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726771F47EEF2EB3B89D3EAABAAFD535 /* ResourceBundle-UICheckboxTreeListView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UICheckboxTreeListView-Info.plist"; sourceTree = "<group>"; };
+		73C9872FBEB7D1A19D37BC54ACBC4983 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756B9153DB9B8CEC860CC67706CEF292 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		773DCCA196A4F4563E9DEF4C3213066B /* KJTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJTree.swift; path = KJExpandableTableTree/Classes/KJTree.swift; sourceTree = "<group>"; };
+		7EA28FF231670B3E375EAA9D49164B67 /* Pods-UICheckboxTreeListView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UICheckboxTreeListView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F48E7B6D13151762A748BCCB3353A9B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824D13C37484DA3CD28334AB5513650B /* UICheckboxTreeListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICheckboxTreeListView.modulemap; sourceTree = "<group>"; };
+		857AE4BB31798D28677F935DCB10AACF /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		86CF90C6AE70FAC3EFDB5D8A07156D5E /* UICheckboxParentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckboxParentCell.swift; path = UICheckboxTreeListView/Classes/UICheckboxParentCell.swift; sourceTree = "<group>"; };
+		8767D20A89CB3CF47B39F42DA2CE1B27 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		87A80ACABC9A222E67CCC6A4664881F4 /* Pods_UICheckboxTreeListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UICheckboxTreeListView_Tests.framework; path = "Pods-UICheckboxTreeListView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C820661903397AFAF3EFA4802A5F945 /* UICheckboxTreeListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICheckboxTreeListView-prefix.pch"; sourceTree = "<group>"; };
+		8D6D14303FE292156E3F7ED0CF62BCD9 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97297CEB6581F43806A6E02F120CE707 /* Pods-UICheckboxTreeListView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UICheckboxTreeListView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		987CBE501DDF6FB1E3F8A1B9278A986D /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9B6E267C4B0A7FA1C0A35E2C013D848B /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		A3EFC7C2A6A879ED373FC1F98C54F165 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		A6A29E4F73DEADBE01BC6928E6F47ED2 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		A8B65B9611E1850ECF30C973C7AE4737 /* Pods-UICheckboxTreeListView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UICheckboxTreeListView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A8BC6DB409ACA5FFAD8009F3A5316533 /* UICheckboxTreeListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckboxTreeListView.swift; path = UICheckboxTreeListView/Classes/UICheckboxTreeListView.swift; sourceTree = "<group>"; };
+		AD10B9E5F681C9B00EA89CFEF6552BD4 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		AECBB9EC448E258D21CF9B730F7B195A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B490655B15FD69492EB6663B87A60D /* Pods-UICheckboxTreeListView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UICheckboxTreeListView_Example.modulemap"; sourceTree = "<group>"; };
+		B636C18B9F01CD2D62D4D1D43AF9EF70 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		B6A9AEB07C71C54C884F916A435D39AB /* KJExpandableTableTree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KJExpandableTableTree-dummy.m"; sourceTree = "<group>"; };
+		B8A0155E2EBB86DD4E15053E9DF079C7 /* Pods-UICheckboxTreeListView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UICheckboxTreeListView_Example-dummy.m"; sourceTree = "<group>"; };
+		B9F25FA9A7F1EC5D061FF83C60941858 /* UICheckboxTreeListView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UICheckboxTreeListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB7FC46EE84DE99617E68A376178B082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1C5EB93E8C6BE53494FB66B7C38080 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		BE956DE037C1736FC1782E7E03134213 /* UICheckboxChildCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckboxChildCell.swift; path = UICheckboxTreeListView/Classes/UICheckboxChildCell.swift; sourceTree = "<group>"; };
+		BF4318A06A66FAE784BA2E8FE3B20A21 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		BFBE271DBD9C405A8FD3293F82F73638 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		C2173364B89024B056FA46918F31D7EB /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C2F000BC8A79063A5575F093C11DF2AB /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		CB785E6504B5676574A460D821CDC22C /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		D239A2F10B93AF63EE42C924C6C3392C /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		D2B6E5EAE9337272E9151FF208FC3038 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		DA40FC72F7B9EBC6D91BEC67DF131F96 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		DE5FE733C504A2D5D794003107344988 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		E240FA1D2C3B6736DED52575A3DD983A /* Pods-UICheckboxTreeListView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICheckboxTreeListView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E4F5E2E078C8906D92F10C145C13C8BF /* UICheckboxNibLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckboxNibLoadingView.swift; path = UICheckboxTreeListView/Classes/UICheckboxNibLoadingView.swift; sourceTree = "<group>"; };
+		E7AA878DF38508DB44B4A6B992F6167A /* UICheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICheckBox.swift; path = UICheckboxTreeListView/Classes/UICheckBox.swift; sourceTree = "<group>"; };
+		E8EB711CEF333A8B31D5180799BAEF23 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		EC104CBCE8CAD2D7101DCFEC35F0F656 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		ECDAB2DF51DD5E3EF5C6223990271843 /* Pods-UICheckboxTreeListView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UICheckboxTreeListView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED5F988BD855B27C26243613C126DE46 /* UICheckboxTreeListView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UICheckboxTreeListView.bundle; path = "UICheckboxTreeListView-UICheckboxTreeListView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD0EB17C10920B8FC1D1FFA01A57D6A /* Pods-UICheckboxTreeListView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UICheckboxTreeListView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA121C8F1A7B0C25DE40557D0B8493DD /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		FA6342D87FDA67A48D85F2296D3C698A /* Pods-UICheckboxTreeListView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICheckboxTreeListView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FFBB88BA992C40AB6AE7747097CF4DCD /* KJExpandableTableTree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJExpandableTableTree-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689A7F8835B9D5BCBE814956BCE03BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FCB33B239CB74376AE60E95EE3745C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D272912E003CD001347D5C9526AAF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855815469BE0E98EC0E47D23185F8BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9828E4F94EC19D13B7DAFA3BD269AD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D93C00DE3EAB1265337C1BEBA8A67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54B644540CF937F058722404E4ED7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25904A4F0D40ECAE214C84102AD75EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB39D2A21F533F49F76E36AE34B970F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3427757BC4841264023927CC6872CA5E /* Foundation.framework in Frameworks */,
+				CAB4B930ECE4FEF0A98554D6600EBEBB /* KJExpandableTableTree.framework in Frameworks */,
+				D8425DCCDBF4A7217EA467AEBB24E79D /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF783AF44EEBC97292F212D29D8D7CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090EFD352AB11DAC8EE24E32C25DEA8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7FC46EE84DE99617E68A376178B082 /* Info.plist */,
+				557B1DB123954364BD43DE57CF99860A /* KJExpandableTableTree.modulemap */,
+				51DCE6799FB848E8AB263F884FA4B17B /* KJExpandableTableTree.xcconfig */,
+				B6A9AEB07C71C54C884F916A435D39AB /* KJExpandableTableTree-dummy.m */,
+				6911D2CCF62E803B24E7A54A4BD21A7C /* KJExpandableTableTree-prefix.pch */,
+				FFBB88BA992C40AB6AE7747097CF4DCD /* KJExpandableTableTree-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KJExpandableTableTree";
+			sourceTree = "<group>";
+		};
+		0D5E51461807671322B58A50D2E7A5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7384D4773576DFBD86FD98D726716F /* KJExpandableTableTree */,
+				1CB5A1624330C12BE8B72C00666F8315 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E7BAC5F12789FD89545CADBE161D4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A01B980A514ABA13B2790975761D9B /* KJExpandableTableTree.framework */,
+				69A0D92733AA47123814CC71F79CD7C8 /* Pods_UICheckboxTreeListView_Example.framework */,
+				87A80ACABC9A222E67CCC6A4664881F4 /* Pods_UICheckboxTreeListView_Tests.framework */,
+				7F48E7B6D13151762A748BCCB3353A9B /* SnapKit.framework */,
+				ED5F988BD855B27C26243613C126DE46 /* UICheckboxTreeListView.bundle */,
+				55FFBAA646FFA13873FDA777CCB248C7 /* UICheckboxTreeListView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1606CB3C82E085E7F0BBE3E33A758B0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5754911F2D6B518A354CFCEC1A763442 /* LICENSE */,
+				50701E1C7E0669DD794B674217C74226 /* README.md */,
+				B9F25FA9A7F1EC5D061FF83C60941858 /* UICheckboxTreeListView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		171E7FE126AFB395CB3AF3AF5A7252D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3398CAB6D9175CD45A97B3144461373C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CB5A1624330C12BE8B72C00666F8315 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				04819DCE5883FF5EF190DB5B2A8A7B19 /* Constraint.swift */,
+				C2173364B89024B056FA46918F31D7EB /* ConstraintAttributes.swift */,
+				03B1F2AE5EC61F56C53B12D4A69E39AC /* ConstraintConfig.swift */,
+				1FD7B57F00A85FBD99E7F3A76F1D1228 /* ConstraintConstantTarget.swift */,
+				1B11A283A449D3687584E1876E90B8A1 /* ConstraintDescription.swift */,
+				AD10B9E5F681C9B00EA89CFEF6552BD4 /* ConstraintDSL.swift */,
+				D2B6E5EAE9337272E9151FF208FC3038 /* ConstraintInsets.swift */,
+				C2F000BC8A79063A5575F093C11DF2AB /* ConstraintInsetTarget.swift */,
+				CB785E6504B5676574A460D821CDC22C /* ConstraintItem.swift */,
+				8D6D14303FE292156E3F7ED0CF62BCD9 /* ConstraintLayoutGuide.swift */,
+				756B9153DB9B8CEC860CC67706CEF292 /* ConstraintLayoutGuide+Extensions.swift */,
+				154697FBBD7F91D81793FB0C6E900495 /* ConstraintLayoutGuideDSL.swift */,
+				5B7BA48007555B823F217E9B367AB46A /* ConstraintLayoutSupport.swift */,
+				A6A29E4F73DEADBE01BC6928E6F47ED2 /* ConstraintLayoutSupportDSL.swift */,
+				BFBE271DBD9C405A8FD3293F82F73638 /* ConstraintMaker.swift */,
+				857AE4BB31798D28677F935DCB10AACF /* ConstraintMakerEditable.swift */,
+				FA121C8F1A7B0C25DE40557D0B8493DD /* ConstraintMakerExtendable.swift */,
+				B636C18B9F01CD2D62D4D1D43AF9EF70 /* ConstraintMakerFinalizable.swift */,
+				987CBE501DDF6FB1E3F8A1B9278A986D /* ConstraintMakerPriortizable.swift */,
+				EC104CBCE8CAD2D7101DCFEC35F0F656 /* ConstraintMakerRelatable.swift */,
+				9B6E267C4B0A7FA1C0A35E2C013D848B /* ConstraintMultiplierTarget.swift */,
+				2FB70ECA4DE620C4634294A14B79E006 /* ConstraintOffsetTarget.swift */,
+				46B57360BCEB09F7C16FD04450A7F9A7 /* ConstraintPriority.swift */,
+				DA40FC72F7B9EBC6D91BEC67DF131F96 /* ConstraintPriorityTarget.swift */,
+				3822A98C271342CF5D5B57DAAB88D064 /* ConstraintRelatableTarget.swift */,
+				2E0309CB4B66A39DD0AF785E41B86601 /* ConstraintRelation.swift */,
+				5884F3645FBBB56D821954612C947972 /* ConstraintView.swift */,
+				D239A2F10B93AF63EE42C924C6C3392C /* ConstraintView+Extensions.swift */,
+				084EC82E5E7DE4270C3C88941FA7A9B2 /* ConstraintViewDSL.swift */,
+				64FD321DE17663A19F9A18695DDF2DE9 /* Debugging.swift */,
+				BF4318A06A66FAE784BA2E8FE3B20A21 /* LayoutConstraint.swift */,
+				BC1C5EB93E8C6BE53494FB66B7C38080 /* LayoutConstraintItem.swift */,
+				3D8A3B7AC9BD1BE0ED9592328002D9E4 /* Typealiases.swift */,
+				A3EFC7C2A6A879ED373FC1F98C54F165 /* UILayoutSupport+Extensions.swift */,
+				43BC4E8E12801C050258055AC6175F51 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		230BA05CC3E7787375EFD60D5555A194 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74AECA1ECACB846B73ACE9A14E83084E /* UICheckboxTreeListView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		43BC4E8E12801C050258055AC6175F51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2AFCFD9A13E3554B19058A364B1984 /* Info.plist */,
+				18495B12893AECBACE6AE7F029ABEEE6 /* SnapKit.modulemap */,
+				8767D20A89CB3CF47B39F42DA2CE1B27 /* SnapKit.xcconfig */,
+				DE5FE733C504A2D5D794003107344988 /* SnapKit-dummy.m */,
+				E8EB711CEF333A8B31D5180799BAEF23 /* SnapKit-prefix.pch */,
+				3F64404ADE15EC7F507B1BDD8F7500BD /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		74AECA1ECACB846B73ACE9A14E83084E /* UICheckboxTreeListView */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA878DF38508DB44B4A6B992F6167A /* UICheckBox.swift */,
+				BE956DE037C1736FC1782E7E03134213 /* UICheckboxChildCell.swift */,
+				E4F5E2E078C8906D92F10C145C13C8BF /* UICheckboxNibLoadingView.swift */,
+				86CF90C6AE70FAC3EFDB5D8A07156D5E /* UICheckboxParentCell.swift */,
+				A8BC6DB409ACA5FFAD8009F3A5316533 /* UICheckboxTreeListView.swift */,
+				1606CB3C82E085E7F0BBE3E33A758B0E /* Pod */,
+				C721B585CBF44E75332535859F1B73AF /* Resources */,
+				74BD00337491BB5193613170DD5452AC /* Support Files */,
+			);
+			name = UICheckboxTreeListView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74BD00337491BB5193613170DD5452AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9AEB548D3B5924F06EC1555DDA3FE /* Info.plist */,
+				726771F47EEF2EB3B89D3EAABAAFD535 /* ResourceBundle-UICheckboxTreeListView-Info.plist */,
+				824D13C37484DA3CD28334AB5513650B /* UICheckboxTreeListView.modulemap */,
+				15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */,
+				3B1B8E7320600B040F0C4D362B1EF840 /* UICheckboxTreeListView-dummy.m */,
+				8C820661903397AFAF3EFA4802A5F945 /* UICheckboxTreeListView-prefix.pch */,
+				520A26D8D67A493B48D68644C544BD3D /* UICheckboxTreeListView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UICheckboxTreeListView";
+			sourceTree = "<group>";
+		};
+		79CD7C345F3AEA0F67256B9162F6487D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBB398E22E4ADB97C1DB71716FFA5 /* Pods-UICheckboxTreeListView_Example */,
+				85CD49676C96DC4ADF9C34157BFAF401 /* Pods-UICheckboxTreeListView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				230BA05CC3E7787375EFD60D5555A194 /* Development Pods */,
+				C9DD3BFC5FA14BDE6F26BEC0FC5AD3C8 /* Frameworks */,
+				0D5E51461807671322B58A50D2E7A5A2 /* Pods */,
+				0E7BAC5F12789FD89545CADBE161D4CD /* Products */,
+				79CD7C345F3AEA0F67256B9162F6487D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7384D4773576DFBD86FD98D726716F /* KJExpandableTableTree */ = {
+			isa = PBXGroup;
+			children = (
+				773DCCA196A4F4563E9DEF4C3213066B /* KJTree.swift */,
+				090EFD352AB11DAC8EE24E32C25DEA8D /* Support Files */,
+			);
+			name = KJExpandableTableTree;
+			path = KJExpandableTableTree;
+			sourceTree = "<group>";
+		};
+		85CD49676C96DC4ADF9C34157BFAF401 /* Pods-UICheckboxTreeListView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73C9872FBEB7D1A19D37BC54ACBC4983 /* Info.plist */,
+				56A73EDD3D0F7F3C104C84A990C0D6D2 /* Pods-UICheckboxTreeListView_Tests.modulemap */,
+				6290B96EF2B0E740488EF7987DE50163 /* Pods-UICheckboxTreeListView_Tests-acknowledgements.markdown */,
+				EDD0EB17C10920B8FC1D1FFA01A57D6A /* Pods-UICheckboxTreeListView_Tests-acknowledgements.plist */,
+				667DE13C8928EC40C599081C28053CC8 /* Pods-UICheckboxTreeListView_Tests-dummy.m */,
+				FA6342D87FDA67A48D85F2296D3C698A /* Pods-UICheckboxTreeListView_Tests-frameworks.sh */,
+				633CA3F08473638B6BFDCD698C0C0C7D /* Pods-UICheckboxTreeListView_Tests-resources.sh */,
+				97297CEB6581F43806A6E02F120CE707 /* Pods-UICheckboxTreeListView_Tests-umbrella.h */,
+				3D759AC28BE1020D29160FC9A93A9CC8 /* Pods-UICheckboxTreeListView_Tests.debug.xcconfig */,
+				4D2537BDC57FEFC6FF13F75C9E3724A9 /* Pods-UICheckboxTreeListView_Tests.release.xcconfig */,
+			);
+			name = "Pods-UICheckboxTreeListView_Tests";
+			path = "Target Support Files/Pods-UICheckboxTreeListView_Tests";
+			sourceTree = "<group>";
+		};
+		9DFDBB398E22E4ADB97C1DB71716FFA5 /* Pods-UICheckboxTreeListView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AECBB9EC448E258D21CF9B730F7B195A /* Info.plist */,
+				B0B490655B15FD69492EB6663B87A60D /* Pods-UICheckboxTreeListView_Example.modulemap */,
+				7EA28FF231670B3E375EAA9D49164B67 /* Pods-UICheckboxTreeListView_Example-acknowledgements.markdown */,
+				ECDAB2DF51DD5E3EF5C6223990271843 /* Pods-UICheckboxTreeListView_Example-acknowledgements.plist */,
+				B8A0155E2EBB86DD4E15053E9DF079C7 /* Pods-UICheckboxTreeListView_Example-dummy.m */,
+				E240FA1D2C3B6736DED52575A3DD983A /* Pods-UICheckboxTreeListView_Example-frameworks.sh */,
+				5A0F9E04E099379F38E4501D8BB30843 /* Pods-UICheckboxTreeListView_Example-resources.sh */,
+				A8B65B9611E1850ECF30C973C7AE4737 /* Pods-UICheckboxTreeListView_Example-umbrella.h */,
+				28A72029D051FFFF01FF6BEA41DBD139 /* Pods-UICheckboxTreeListView_Example.debug.xcconfig */,
+				1B03068A73E26EEEFF3DD72764884853 /* Pods-UICheckboxTreeListView_Example.release.xcconfig */,
+			);
+			name = "Pods-UICheckboxTreeListView_Example";
+			path = "Target Support Files/Pods-UICheckboxTreeListView_Example";
+			sourceTree = "<group>";
+		};
+		C721B585CBF44E75332535859F1B73AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AD1B8AF5D18E87D99C45A421C989A5A /* Assets.xcassets */,
+				52B64CFCC1C90DAB9BD8D1E5CBC197AB /* UICheckboxChildCell.xib */,
+				5E96778849612BCD01BB3EF5AFCBE896 /* UICheckboxParentCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C9DD3BFC5FA14BDE6F26BEC0FC5AD3C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E29A25BB8EFD2CC448CD77952B5B9 /* KJExpandableTableTree.framework */,
+				6904583732B1C47C53E96923B4F6F0FE /* SnapKit.framework */,
+				171E7FE126AFB395CB3AF3AF5A7252D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08B654AB0917D7BE14BEA496BEBFC6BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168C2EFAC0C30BD3744B994130BE5E73 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A115F1EF783CC400CD7B15D6C8AA30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1D3BC88AE27EFB5A06BA71D6A12200 /* Pods-UICheckboxTreeListView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67470B9DDBAD85AEA0DC180220DAA71A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D97A75C123787F085AAF59391BB351C /* UICheckboxTreeListView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A55942E795951589658186675BFBEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7523A6E8666E20E4B5E13E50970E8B9B /* KJExpandableTableTree-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11575E50F8B89E0C40AE1A8985ECFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F704B0019A485C09443B63CAA4FA70C8 /* Pods-UICheckboxTreeListView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3114C0D9EE5A56D6F087C01701087664 /* UICheckboxTreeListView-UICheckboxTreeListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E9BF7B68A258B76CD2AB805FC4CAF04 /* Build configuration list for PBXNativeTarget "UICheckboxTreeListView-UICheckboxTreeListView" */;
+			buildPhases = (
+				E899AC83E94641521FD644267021260B /* Sources */,
+				FF783AF44EEBC97292F212D29D8D7CA1 /* Frameworks */,
+				CC878E6A2A07555621CBA18B52C0FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UICheckboxTreeListView-UICheckboxTreeListView";
+			productName = "UICheckboxTreeListView-UICheckboxTreeListView";
+			productReference = ED5F988BD855B27C26243613C126DE46 /* UICheckboxTreeListView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7D1D032FA5413D2BDA2A9BDFA79C1518 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0903A8F037F63BABEACAC929642425 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				08B654AB0917D7BE14BEA496BEBFC6BB /* Headers */,
+				90C32EF1D58E1AAE1C2BCF3696F3825D /* Sources */,
+				689A7F8835B9D5BCBE814956BCE03BFD /* Frameworks */,
+				0599DB80335A6D2D9809D8A494470C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 7F48E7B6D13151762A748BCCB3353A9B /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2BB0325DBB0D91B9F4160E2A1C2DB9E /* UICheckboxTreeListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D855AEF26D1B7B6A0A053BA11D6D11C /* Build configuration list for PBXNativeTarget "UICheckboxTreeListView" */;
+			buildPhases = (
+				67470B9DDBAD85AEA0DC180220DAA71A /* Headers */,
+				1AD511457A5D063BC702B1169EF3682F /* Sources */,
+				FB39D2A21F533F49F76E36AE34B970F7 /* Frameworks */,
+				AB14EF4323F6E6BA12D946A36379CB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120C1C22EE4D8520334DBD94F188A9FC /* PBXTargetDependency */,
+				4A94FD71778D313909C620FDC391A027 /* PBXTargetDependency */,
+				58C3F34FFBF07DBE408B383C368042FE /* PBXTargetDependency */,
+			);
+			name = UICheckboxTreeListView;
+			productName = UICheckboxTreeListView;
+			productReference = 55FFBAA646FFA13873FDA777CCB248C7 /* UICheckboxTreeListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D39C6D3149492F2B9BA40E81C038BB1F /* Pods-UICheckboxTreeListView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB941C1FEA6A61778A05E7B448E239E9 /* Build configuration list for PBXNativeTarget "Pods-UICheckboxTreeListView_Tests" */;
+			buildPhases = (
+				45A115F1EF783CC400CD7B15D6C8AA30 /* Headers */,
+				6FC3AFCFE6A3FC3534F46F042E77B775 /* Sources */,
+				E54B644540CF937F058722404E4ED7A9 /* Frameworks */,
+				E80C65B834AFC026C278D8A4636B93C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB175683AA37887E70A26C8D8D74F0D /* PBXTargetDependency */,
+			);
+			name = "Pods-UICheckboxTreeListView_Tests";
+			productName = "Pods-UICheckboxTreeListView_Tests";
+			productReference = 87A80ACABC9A222E67CCC6A4664881F4 /* Pods_UICheckboxTreeListView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD7216794B6AAFEB15B2A58223794E5B /* Pods-UICheckboxTreeListView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA10AB95E38DA7407A62446ABAD8F0A7 /* Build configuration list for PBXNativeTarget "Pods-UICheckboxTreeListView_Example" */;
+			buildPhases = (
+				B11575E50F8B89E0C40AE1A8985ECFC5 /* Headers */,
+				A99C718FE81D1B5C2CF4ED1C8D54CFEC /* Sources */,
+				9828E4F94EC19D13B7DAFA3BD269AD48 /* Frameworks */,
+				96F2CFACFE8E73E96BF0E51D8C86AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A98CD2B9C190484F3AED509CF00D59 /* PBXTargetDependency */,
+				67BC2B0A64702A8B1E974527783D691A /* PBXTargetDependency */,
+				B4C55ADF2DC7C07CEE5F0DBCD85106DE /* PBXTargetDependency */,
+			);
+			name = "Pods-UICheckboxTreeListView_Example";
+			productName = "Pods-UICheckboxTreeListView_Example";
+			productReference = 69A0D92733AA47123814CC71F79CD7C8 /* Pods_UICheckboxTreeListView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED816979901DD45B07AF24AF34AD0294 /* KJExpandableTableTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DDF57CA2662014F0C7155BC73BCFC3 /* Build configuration list for PBXNativeTarget "KJExpandableTableTree" */;
+			buildPhases = (
+				89A55942E795951589658186675BFBEA /* Headers */,
+				701EE25F727C03540299EA948DDA57BD /* Sources */,
+				86D272912E003CD001347D5C9526AAF6 /* Frameworks */,
+				DE57F838B48D0D09BA57CE731A65FA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJExpandableTableTree;
+			productName = KJExpandableTableTree;
+			productReference = 58A01B980A514ABA13B2790975761D9B /* KJExpandableTableTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E7BAC5F12789FD89545CADBE161D4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED816979901DD45B07AF24AF34AD0294 /* KJExpandableTableTree */,
+				DD7216794B6AAFEB15B2A58223794E5B /* Pods-UICheckboxTreeListView_Example */,
+				D39C6D3149492F2B9BA40E81C038BB1F /* Pods-UICheckboxTreeListView_Tests */,
+				7D1D032FA5413D2BDA2A9BDFA79C1518 /* SnapKit */,
+				B2BB0325DBB0D91B9F4160E2A1C2DB9E /* UICheckboxTreeListView */,
+				3114C0D9EE5A56D6F087C01701087664 /* UICheckboxTreeListView-UICheckboxTreeListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0599DB80335A6D2D9809D8A494470C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2CFACFE8E73E96BF0E51D8C86AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB14EF4323F6E6BA12D946A36379CB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900B053A24CD3EAF6C89B819ED76198E /* UICheckboxTreeListView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC878E6A2A07555621CBA18B52C0FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91D00C0576D0F444B7D042C53A64C47 /* Assets.xcassets in Resources */,
+				A572845B2D062661D7F65C598D7C86DB /* UICheckboxChildCell.xib in Resources */,
+				3A6219477B3A24FCBD7F0AF20B800EEA /* UICheckboxParentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE57F838B48D0D09BA57CE731A65FA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80C65B834AFC026C278D8A4636B93C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD511457A5D063BC702B1169EF3682F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F7DF55044B2B374A952D8CE3A59EA /* UICheckBox.swift in Sources */,
+				A6806DBA51B3E62B1BA26DD8D5225B26 /* UICheckboxChildCell.swift in Sources */,
+				A08E0210F973FB192F2046BF1F4A02A8 /* UICheckboxNibLoadingView.swift in Sources */,
+				E02084E9D651B7401693A5FF50320F98 /* UICheckboxParentCell.swift in Sources */,
+				C258DA340519F1149568E2ACE6FACBEF /* UICheckboxTreeListView-dummy.m in Sources */,
+				1C9DDF7AC89329F11309BFC8AAB77432 /* UICheckboxTreeListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC3AFCFE6A3FC3534F46F042E77B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F749784D89E08706737CD2AE343EA6 /* Pods-UICheckboxTreeListView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701EE25F727C03540299EA948DDA57BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D52835672D0E7A48C4B6EBAD13E40A0 /* KJExpandableTableTree-dummy.m in Sources */,
+				F02596FBC42F7E74A5612916D3B981D8 /* KJTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C32EF1D58E1AAE1C2BCF3696F3825D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D290A0657436DEB1D4E9E6006E33127 /* Constraint.swift in Sources */,
+				781E99BF646202874CC5327D1F3FBD1B /* ConstraintAttributes.swift in Sources */,
+				D41D7529DA1AE2FEBD71773883339E7F /* ConstraintConfig.swift in Sources */,
+				503D7DE43F852A0C4FA8B5E8FB092A15 /* ConstraintConstantTarget.swift in Sources */,
+				A84C3DD44ED7D0D888386FE3569F9644 /* ConstraintDescription.swift in Sources */,
+				F8E238F24510D669E0AFABF209C4B3CF /* ConstraintDSL.swift in Sources */,
+				A07250C217DF31ACB6583453F4D55480 /* ConstraintInsets.swift in Sources */,
+				E7AE1B05A48173C0A6C80F5841A7CC8F /* ConstraintInsetTarget.swift in Sources */,
+				D02205AE9CD4BCFB740118272A851996 /* ConstraintItem.swift in Sources */,
+				4721B4D7EA183B8B688407715DD377AB /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				1BBE74FBA5ABE1D88A507381271E01B8 /* ConstraintLayoutGuide.swift in Sources */,
+				ACD23A9EA166CB0C0974D786B17F3247 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				50AD0E884A3C574F8E458CCCD6B8AE59 /* ConstraintLayoutSupport.swift in Sources */,
+				CCFD994B4B3E68B1DC805E1A33F69834 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				8F457305AF1A54C48F6B51D654651269 /* ConstraintMaker.swift in Sources */,
+				F7CC5FABACBED588C9F9098E4E1BB408 /* ConstraintMakerEditable.swift in Sources */,
+				B00AC30CCBC31D93AC991DF9383837A9 /* ConstraintMakerExtendable.swift in Sources */,
+				321B2CA1577F06BC52F12554EA972274 /* ConstraintMakerFinalizable.swift in Sources */,
+				CE4F71C2B80E15273DF21961712C5321 /* ConstraintMakerPriortizable.swift in Sources */,
+				D59EEC9677826A2BD2633F8FB54D70E3 /* ConstraintMakerRelatable.swift in Sources */,
+				484F9E2F0705A1D2CBAB13CED5F4327B /* ConstraintMultiplierTarget.swift in Sources */,
+				34B1CB3986A67AEE14056987B09851E4 /* ConstraintOffsetTarget.swift in Sources */,
+				4FDCF97B7FC89C164C853184519B9944 /* ConstraintPriority.swift in Sources */,
+				B09B7FB6512593F59C6176D274A4A865 /* ConstraintPriorityTarget.swift in Sources */,
+				CB9EC4AAF3E1D565C9C495F1E8E49A84 /* ConstraintRelatableTarget.swift in Sources */,
+				29862F4A50222961B156A47C6FA3A992 /* ConstraintRelation.swift in Sources */,
+				2DC751F8A77B7936589B80D34AA08AF4 /* ConstraintView+Extensions.swift in Sources */,
+				2AC6E617EE4A3AA5218FD1DCA17A32F5 /* ConstraintView.swift in Sources */,
+				5574BA7C0FE32A3CEAAFCF9D6477E2DF /* ConstraintViewDSL.swift in Sources */,
+				AA25129B923D76C3EA71EF89AFFEE810 /* Debugging.swift in Sources */,
+				959764C51DC56A918351F707B47D495F /* LayoutConstraint.swift in Sources */,
+				FEE1FC8C983F55AC3EEE878A6CE1F595 /* LayoutConstraintItem.swift in Sources */,
+				CB5EEA9AA616BF870DAC5E30E7848125 /* SnapKit-dummy.m in Sources */,
+				C84CD8CFFA849E92B725B5E0C2E981B0 /* Typealiases.swift in Sources */,
+				C28233F04C036E057DE3D8A62141C200 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C718FE81D1B5C2CF4ED1C8D54CFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EB9BBC12D67E60C362A92A0B4B0ABB /* Pods-UICheckboxTreeListView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899AC83E94641521FD644267021260B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A98CD2B9C190484F3AED509CF00D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KJExpandableTableTree;
+			target = ED816979901DD45B07AF24AF34AD0294 /* KJExpandableTableTree */;
+			targetProxy = BCF9BAE00E4A097F8FCB13CC816A8964 /* PBXContainerItemProxy */;
+		};
+		120C1C22EE4D8520334DBD94F188A9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KJExpandableTableTree;
+			target = ED816979901DD45B07AF24AF34AD0294 /* KJExpandableTableTree */;
+			targetProxy = 19ADBE47E1FD08126E93305F73E3219F /* PBXContainerItemProxy */;
+		};
+		4A94FD71778D313909C620FDC391A027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 7D1D032FA5413D2BDA2A9BDFA79C1518 /* SnapKit */;
+			targetProxy = 9A1291557D9037A6F5831AB57B1A1948 /* PBXContainerItemProxy */;
+		};
+		58C3F34FFBF07DBE408B383C368042FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UICheckboxTreeListView-UICheckboxTreeListView";
+			target = 3114C0D9EE5A56D6F087C01701087664 /* UICheckboxTreeListView-UICheckboxTreeListView */;
+			targetProxy = 507D08E81A3151DEC657B9CCD85581DA /* PBXContainerItemProxy */;
+		};
+		67BC2B0A64702A8B1E974527783D691A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 7D1D032FA5413D2BDA2A9BDFA79C1518 /* SnapKit */;
+			targetProxy = C7F3DFC9802367C12C4982BF0A693FBA /* PBXContainerItemProxy */;
+		};
+		B4C55ADF2DC7C07CEE5F0DBCD85106DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICheckboxTreeListView;
+			target = B2BB0325DBB0D91B9F4160E2A1C2DB9E /* UICheckboxTreeListView */;
+			targetProxy = FFD25DBA2161B174F88C35BEA500FBF6 /* PBXContainerItemProxy */;
+		};
+		CDB175683AA37887E70A26C8D8D74F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UICheckboxTreeListView_Example";
+			target = DD7216794B6AAFEB15B2A58223794E5B /* Pods-UICheckboxTreeListView_Example */;
+			targetProxy = 8606A81CD81FF16C2A3715484BEEA20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11937F08D93CBB4ADB0E1EB5233E9008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D759AC28BE1020D29160FC9A93A9CC8 /* Pods-UICheckboxTreeListView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Tests/Pods-UICheckboxTreeListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		440B14FECF5264CCD565EAB8F926D2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICheckboxTreeListView/UICheckboxTreeListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICheckboxTreeListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICheckboxTreeListView/UICheckboxTreeListView.modulemap";
+				PRODUCT_MODULE_NAME = UICheckboxTreeListView;
+				PRODUCT_NAME = UICheckboxTreeListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D5FA1D84997559973A90A11B57A7C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DCE6799FB848E8AB263F884FA4B17B /* KJExpandableTableTree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KJExpandableTableTree/KJExpandableTableTree-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KJExpandableTableTree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KJExpandableTableTree/KJExpandableTableTree.modulemap";
+				PRODUCT_MODULE_NAME = KJExpandableTableTree;
+				PRODUCT_NAME = KJExpandableTableTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA1FC324F01AC38B0FB55B51EA31538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A72029D051FFFF01FF6BEA41DBD139 /* Pods-UICheckboxTreeListView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Example/Pods-UICheckboxTreeListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6519A1DA6AF715351ECAA747C05DB64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UICheckboxTreeListView";
+				INFOPLIST_FILE = "Target Support Files/UICheckboxTreeListView/ResourceBundle-UICheckboxTreeListView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UICheckboxTreeListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7B432F17EF80EADB17E303A1DFC84348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8767D20A89CB3CF47B39F42DA2CE1B27 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96032B3D847E87B1736FDE6CCC7D1ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2537BDC57FEFC6FF13F75C9E3724A9 /* Pods-UICheckboxTreeListView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Tests/Pods-UICheckboxTreeListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B726FCE8B132019A8EC6A1A03CC657C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DCE6799FB848E8AB263F884FA4B17B /* KJExpandableTableTree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KJExpandableTableTree/KJExpandableTableTree-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KJExpandableTableTree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KJExpandableTableTree/KJExpandableTableTree.modulemap";
+				PRODUCT_MODULE_NAME = KJExpandableTableTree;
+				PRODUCT_NAME = KJExpandableTableTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF13253CD263488F85516DE150526411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8767D20A89CB3CF47B39F42DA2CE1B27 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C63F4A236D39482B46E5ACD479FB7BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UICheckboxTreeListView";
+				INFOPLIST_FILE = "Target Support Files/UICheckboxTreeListView/ResourceBundle-UICheckboxTreeListView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UICheckboxTreeListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C7A4543ABFA8834BE71D4B626CB1323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B03068A73E26EEEFF3DD72764884853 /* Pods-UICheckboxTreeListView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICheckboxTreeListView_Example/Pods-UICheckboxTreeListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCF40BFA85C26B67ADE36A97FAB15D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15932B5515D2F40E69E99758ADF5B9B3 /* UICheckboxTreeListView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICheckboxTreeListView/UICheckboxTreeListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICheckboxTreeListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICheckboxTreeListView/UICheckboxTreeListView.modulemap";
+				PRODUCT_MODULE_NAME = UICheckboxTreeListView;
+				PRODUCT_NAME = UICheckboxTreeListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12DDF57CA2662014F0C7155BC73BCFC3 /* Build configuration list for PBXNativeTarget "KJExpandableTableTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5FA1D84997559973A90A11B57A7C51 /* Debug */,
+				B726FCE8B132019A8EC6A1A03CC657C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
+				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D855AEF26D1B7B6A0A053BA11D6D11C /* Build configuration list for PBXNativeTarget "UICheckboxTreeListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440B14FECF5264CCD565EAB8F926D2F9 /* Debug */,
+				DCF40BFA85C26B67ADE36A97FAB15D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E9BF7B68A258B76CD2AB805FC4CAF04 /* Build configuration list for PBXNativeTarget "UICheckboxTreeListView-UICheckboxTreeListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F4A236D39482B46E5ACD479FB7BA7 /* Debug */,
+				6519A1DA6AF715351ECAA747C05DB64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0903A8F037F63BABEACAC929642425 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B432F17EF80EADB17E303A1DFC84348 /* Debug */,
+				BF13253CD263488F85516DE150526411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA10AB95E38DA7407A62446ABAD8F0A7 /* Build configuration list for PBXNativeTarget "Pods-UICheckboxTreeListView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA1FC324F01AC38B0FB55B51EA31538 /* Debug */,
+				C7A4543ABFA8834BE71D4B626CB1323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB941C1FEA6A61778A05E7B448E239E9 /* Build configuration list for PBXNativeTarget "Pods-UICheckboxTreeListView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11937F08D93CBB4ADB0E1EB5233E9008 /* Debug */,
+				96032B3D847E87B1736FDE6CCC7D1ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

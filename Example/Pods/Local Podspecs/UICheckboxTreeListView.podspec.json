@@ -1,0 +1,35 @@
+{
+  "name": "UICheckboxTreeListView",
+  "version": "0.1.0",
+  "summary": "A simple tree list view containing checkboxes",
+  "description": "A simple tree list view containing checkboxes",
+  "homepage": "https://github.com/trickpirata/UICheckboxTreeListView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "trickpirata": "patrick.gorospe@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/trickpirata/UICheckboxTreeListView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UICheckboxTreeListView/Classes/**/*",
+  "resource_bundles": {
+    "UICheckboxTreeListView": [
+      "UICheckboxTreeListView/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "KJExpandableTableTree": [
+
+    ],
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  }
+}

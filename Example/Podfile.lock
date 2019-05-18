@@ -1,0 +1,27 @@
+PODS:
+  - KJExpandableTableTree (1.1.2)
+  - SnapKit (5.0.0)
+  - UICheckboxTreeListView (0.1.0):
+    - KJExpandableTableTree
+    - SnapKit (~> 5.0.0)
+
+DEPENDENCIES:
+  - UICheckboxTreeListView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KJExpandableTableTree
+    - SnapKit
+
+EXTERNAL SOURCES:
+  UICheckboxTreeListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KJExpandableTableTree: b6b20b330e1067a63efec2d4eca69faba64676ca
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  UICheckboxTreeListView: c635e1a6233d348676b378e8eff3f12626b6adfa
+
+PODFILE CHECKSUM: 22e2c97a7ceef6821a33a2935ac16e7c6f4dad1f
+
+COCOAPODS: 1.5.3

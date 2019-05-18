@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		91F01DC441F9EFDA3A99CE8F /* Pods-UICheckboxTreeListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICheckboxTreeListView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICheckboxTreeListView_Tests/Pods-UICheckboxTreeListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		975534DAE4A1ED6A62A9DD0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AB7DCD13AB2F8B0FE484B349 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		975534DAE4A1ED6A62A9DD0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB7DCD13AB2F8B0FE484B349 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AFF8FA905050517E653B859A /* Pods_UICheckboxTreeListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICheckboxTreeListView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E92435BE09518CFF270E2CC3 /* UICheckboxTreeListView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UICheckboxTreeListView.podspec; path = ../UICheckboxTreeListView.podspec; sourceTree = "<group>"; };
+		E92435BE09518CFF270E2CC3 /* UICheckboxTreeListView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UICheckboxTreeListView.podspec; path = ../UICheckboxTreeListView.podspec; sourceTree = "<group>"; };
 		ECE0DA6DC70E069683055E4C /* Pods_UICheckboxTreeListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICheckboxTreeListView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA9F77EF20DBEC024AEF93B /* Pods-UICheckboxTreeListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICheckboxTreeListView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICheckboxTreeListView_Example/Pods-UICheckboxTreeListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,7 +208,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = trickpirata;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -270,12 +270,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UICheckboxTreeListView_Example/Pods-UICheckboxTreeListView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KJExpandableTableTree/KJExpandableTableTree.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/UICheckboxTreeListView/UICheckboxTreeListView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KJExpandableTableTree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICheckboxTreeListView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,7 +485,9 @@
 			baseConfigurationReference = EDA9F77EF20DBEC024AEF93B /* Pods-UICheckboxTreeListView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UICheckboxTreeListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -496,7 +502,9 @@
 			baseConfigurationReference = 161BA3D1CA9629B18B2AE711 /* Pods-UICheckboxTreeListView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UICheckboxTreeListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -519,6 +527,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,6 +546,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

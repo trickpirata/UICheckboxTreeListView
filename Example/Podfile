@@ -1,8 +1,9 @@
+platform :ios, '10.0'
 use_frameworks!
 
 target 'UICheckboxTreeListView_Example' do
   pod 'UICheckboxTreeListView', :path => '../'
-
+  #pod 'UICheckBox', :git => 'https://github.com/trickpirata/UICheckBox.git'
   target 'UICheckboxTreeListView_Tests' do
     inherit! :search_paths
 

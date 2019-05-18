@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "UICheckboxTreeListView_Example.app"
-               BlueprintName = "UICheckboxTreeListView_Example"
-               ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "UICheckboxTreeListView_Tests.xctest"
-               BlueprintName = "UICheckboxTreeListView_Tests"
-               ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
+               BlueprintIdentifier = "B2BB0325DBB0D91B9F4160E2A1C2DB9E"
+               BuildableName = "UICheckboxTreeListView.framework"
+               BlueprintName = "UICheckboxTreeListView"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "UICheckboxTreeListView_Tests.xctest"
-               BlueprintName = "UICheckboxTreeListView_Tests"
-               ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -59,7 +35,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "UICheckboxTreeListView_Example.app"
             BlueprintName = "UICheckboxTreeListView_Example"
-            ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
+            ReferencedContainer = "container:../UICheckboxTreeListView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +58,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "UICheckboxTreeListView_Example.app"
             BlueprintName = "UICheckboxTreeListView_Example"
-            ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
+            ReferencedContainer = "container:../UICheckboxTreeListView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,16 +70,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "UICheckboxTreeListView_Example.app"
-            BlueprintName = "UICheckboxTreeListView_Example"
-            ReferencedContainer = "container:UICheckboxTreeListView.xcodeproj">
+            BlueprintIdentifier = "B2BB0325DBB0D91B9F4160E2A1C2DB9E"
+            BuildableName = "UICheckboxTreeListView.framework"
+            BlueprintName = "UICheckboxTreeListView"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
